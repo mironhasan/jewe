@@ -1,0 +1,834 @@
+@media (max-width: 575px) {
+    
+    /*--------------------------
+         HEADER PART START
+    ---------------------------*/
+    .header-part {
+        border-bottom: 1px solid #ddd;
+    }
+    
+    .header-main {
+        display: inherit;
+    }
+    
+    .header-parent {
+        justify-content: space-between;
+        margin: 15px 0px !important;
+    }
+    
+    .header-child {
+        margin: 0px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .menu-logo {
+        display: none;
+    }
+    /*--------------------------
+         HEADER PART END
+    ---------------------------*/
+    
+    
+    /*--------------------------
+           MENU PART START
+    ---------------------------*/
+    .nav-heading {
+        padding: 5px 15px !important;
+    }
+    
+    .respons-logo img {
+        display: inherit;
+        height: 55px;
+        width: auto;
+    }
+    
+    .respons-btn {
+        color: #fff;
+    }
+    
+    .respons-hidden {
+        text-align: center;
+    }
+    
+    .menu-form {
+        display: inherit !important;
+    }
+    /*--------------------------
+           MENU PART END
+    ---------------------------*/
+    
+    
+    /*--------------------------
+          BANNER PART START
+    ---------------------------*/
+    .banner-slider ul li {
+        width: 30px;
+        height: 5px;
+    }
+    
+    .banner-slider ul {
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    /*--------------------------
+           BANNER PART END
+    ---------------------------*/
+    
+    
+    /*--------------------------
+         CATEGORY PART START
+    ---------------------------*/
+    .category-part {
+        padding: 40px 0px;
+    }
+    
+    .category-heading h2 {
+        font-size: 26px;
+    }
+    
+    .category-download {
+        margin-bottom: 30px;
+    }
+    
+    .category-parent {
+        justify-content: center;
+    }
+    
+    .category-child {
+        width: 100%;
+    }
+    /*--------------------------
+         CATEGORY PART END
+    ---------------------------*/
+    
+    
+    /*--------------------------
+         COLLECT PART START
+    ---------------------------*/
+    .collect-part {
+        padding: 40px 0px;
+    }
+    
+    .collect-heading {
+        margin-bottom: 15px;
+    }
+    
+    .collect-heading h2 {
+        font-size: 26px;
+    }
+    
+    .collect-parent {
+        justify-content: center;
+    }
+    
+    .collect-btn a {
+        margin-top: 30px;
+    }
+    /*--------------------------
+         COLLECT PART END
+    ---------------------------*/
+    
+    
+    /*--------------------------
+           BLOG PART START
+    ---------------------------*/
+    .blog-part {
+        padding: 60px 0px;
+    }
+    
+    .blog-heading {
+        margin-bottom: 30px;
+    }
+    
+    .blog-div {
+        width: 100%;
+        margin-bottom: 30px !important;
+    }
+    /*--------------------------
+            BLOG PART END
+    ---------------------------*/
+    
+    
+    /*--------------------------
+          FOOTER PART START
+    ---------------------------*/
+    .footer-logo {
+        text-align: center;
+    }
+    
+    .footer-part::after {
+        display: none;
+    }
+    
+    .footer-icon {
+        text-align: center;
+    }
+    
+    .footer-icon ul {
+        float: inherit;
+        margin-top: 30px;
+    }
+    
+    .footer-icon ul li {
+        display: inline-block;
+        margin: 0px 5px;
+        float: inherit;
+    }
+    
+    .footer-icon ul li a i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    
+    .footer-link {
+        padding: 0px 0px;
+        text-align: center;
+    }
+    /*--------------------------
+           FOOTERE PART END
+    ---------------------------*/
+    
+    
+    /*===========================
+        PRODUCT PAGE PART START
+    ============================*/
+    .cart-part {
+        padding: 60px 0px;
+        text-align: center;
+    }
+    
+    .cart-heading {
+        margin-top: 30px;
+    }
+    
+    .cart-banner {
+        margin-top: 30px;
+    }
+    
+    .cart-banner a img {
+        width: auto;
+    }
+    
+    .similar-slider a img {
+        width: 80px;
+    }
+    
+    .similar-slider .bamdik {
+        display: none !important;
+    }
+    
+    .similar-slider .dandik {
+        display: none !important;
+    }
+    /*===========================
+        PRODUCT PAGE PART END
+    ============================*/
+    
+    
+    /*===========================
+     BLOG-DETAILS PAGE PART START
+    ============================*/
+    .blog-detail-part {
+        padding: 50px 0px;
+        text-align: center;
+    }
+    
+    .blog-detail-head h3 {
+        font-size: 22px;
+        line-height: inherit;
+    }
+    
+    .blog-date-text p a {
+        padding-right: 0px;
+        margin-bottom: 30px;
+    }
+    
+    .tag-btn a {
+        margin: 60px 0px 0px 0px;
+        line-height: 50px;
+    }
+    
+    .share-icon span {
+        padding-right: 5px;
+    }
+    /*===========================
+     BLOG-DETAILS PAGE PART END
+    ============================*/
+    
+}
+
+
+@media (min-width: 350px) and (max-width: 575px) {
+    
+    .container {
+        width: 350px !important;
+    }
+    
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    
+    /*--------------------------
+         HEADER PART START
+    ---------------------------*/
+    .header-part {
+        border-bottom: 1px solid #ddd;
+    }
+    
+    .header-part .container {
+        padding: 0px !important;
+    }
+    
+    .header-parent {
+        justify-content: space-between;
+        margin: 15px 0px !important;
+    }
+    
+    .header-child {
+        margin: 0px 8px;
+        flex-wrap: wrap;
+    }
+    
+    .menu-logo {
+        display: none;
+    }
+    /*--------------------------
+         HEADER PART END
+    ---------------------------*/
+    
+    
+    /*--------------------------
+           MENU PART START
+    ---------------------------*/
+    .nav-heading {
+        padding: 5px 15px !important;
+    }
+    
+    .respons-logo img {
+        display: inherit;
+        height: 55px;
+        width: auto;
+    }
+    
+    .respons-btn {
+        color: #fff;
+    }
+    
+    .respons-hidden {
+        text-align: center;
+    }
+    
+    .menu-form {
+        display: inherit !important;
+    }
+    /*--------------------------
+           MENU PART END
+    ---------------------------*/
+    
+    
+    /*--------------------------
+          BANNER PART START
+    ---------------------------*/
+    .banner-slider ul li {
+        width: 30px;
+        height: 5px;
+    }
+    
+    .banner-slider ul {
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    /*--------------------------
+           BANNER PART END
+    ---------------------------*/
+    
+    
+    /*--------------------------
+         CATEGORY PART START
+    ---------------------------*/
+    .category-part {
+        padding: 40px 0px;
+    }
+    
+    .category-app {
+        text-align: center;
+    }
+    
+    .category-app img {
+        width: 300px;
+    }
+    
+    .category-heading {
+        margin-bottom: 15px;
+    }
+    
+    .category-heading h2 {
+        font-size: 26px;
+    }
+    
+    .category-download {
+        margin-bottom: 30px;
+    }
+    
+    .category-child {
+        width: 225px;
+    }
+    /*--------------------------
+         CATEGORY PART END
+    ---------------------------*/
+    
+    
+    /*--------------------------
+         COLLECT PART START
+    ---------------------------*/
+    .collect-part {
+        padding: 40px 0px;
+    }
+    
+    .collect-heading {
+        margin-bottom: 15px;
+    }
+    
+    .collect-heading h2 {
+        font-size: 26px;
+    }
+    
+    .collect-parent {
+        justify-content: center;
+    }
+    
+    .collect-child {
+        width: 225px;
+    }
+    
+    .collect-btn a {
+        margin-top: 30px;
+    }
+    /*--------------------------
+         COLLECT PART END
+    ---------------------------*/
+    
+    
+    /*--------------------------
+           BLOG PART START
+    ---------------------------*/
+    .blog-part {
+        padding: 60px 0px;
+    }
+    
+    .blog-heading {
+        margin-bottom: 30px;
+    }
+    
+    .blog-div {
+        width: 100%;
+        margin: 0 auto 30px !important;
+    }
+    
+    .blog-content h2 {
+        font-size: 18px;
+    }
+    /*--------------------------
+            BLOG PART END
+    ---------------------------*/
+    
+    
+    /*--------------------------
+          FOOTER PART START
+    ---------------------------*/
+    .footer-logo {
+        text-align: center;
+    }
+    
+    .footer-part::after {
+        display: none;
+    }
+    
+    .footer-icon {
+        text-align: center;
+    }
+    
+    .footer-icon ul {
+        float: inherit;
+        margin-top: 30px;
+    }
+    
+    .footer-icon ul li {
+        display: inline-block;
+        margin: 0px 5px;
+        float: inherit;
+    }
+    
+    .footer-icon ul li a i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    
+    .footer-link {
+        padding: 0px 0px;
+        text-align: center;
+    }
+    /*--------------------------
+           FOOTERE PART END
+    ---------------------------*/
+    
+    
+    /*===========================
+        PRODUCT PAGE PART START
+    ============================*/
+    .cart-part {
+        padding: 60px 0px;
+        text-align: center;
+    }
+    
+    .cart-heading {
+        margin-top: 30px;
+    }
+    
+    .cart-banner {
+        margin-top: 30px;
+    }
+    
+    .cart-banner a img {
+        display: none;
+    }
+    
+    .similar-slider a img {
+        width: 80px;
+    }
+    
+    .similar-slider .bamdik {
+        display: none !important;
+    }
+    
+    .similar-slider .dandik {
+        display: none !important;
+    }
+    /*===========================
+        PRODUCT PAGE PART END
+    ============================*/
+    
+    
+    /*===========================
+     BLOG-DETAILS PAGE PART START
+    ============================*/
+    .blog-detail-part {
+        padding: 50px 0px;
+        text-align: center;
+    }
+    
+    .blog-detail-head h3 {
+        font-size: 22px;
+        line-height: inherit;
+    }
+    
+    .blog-date-text p a {
+        padding-right: 0px;
+        margin-bottom: 30px;
+    }
+    
+    .tag-btn a {
+        margin: 60px 0px 0px 0px;
+        line-height: 50px;
+    }
+    
+    .share-icon span {
+        padding-right: 5px;
+    }
+    /*===========================
+     BLOG-DETAILS PAGE PART END
+    ============================*/
+    
+}
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    /*--------------------------
+         HEADER PART START
+    ---------------------------*/
+    .header-part {
+        border-bottom: 1px solid #ddd;
+    }
+    
+    .header-part .container {
+        padding: 0px !important;
+    }
+    
+    .header-parent {
+        justify-content: space-between;
+        margin: 15px 0px !important;
+    }
+    
+    .header-child {
+        margin: 0px 8px;
+        flex-wrap: wrap;
+    }
+    
+    .menu-logo {
+        display: none;
+    }
+    /*--------------------------
+         HEADER PART END
+    ---------------------------*/
+    
+    
+    /*--------------------------
+           MENU PART START
+    ---------------------------*/
+    .nav-heading {
+        padding: 5px 15px !important;
+    }
+    
+    .respons-logo img {
+        display: inherit;
+        height: 55px;
+        width: auto;
+    }
+    
+    .respons-btn {
+        color: #fff;
+    }
+    
+    .respons-hidden {
+        text-align: center;
+    }
+    
+    .menu-form {
+        display: inherit !important;
+    }
+    /*--------------------------
+           MENU PART END
+    ---------------------------*/
+    
+    
+    /*--------------------------
+          BANNER PART START
+    ---------------------------*/
+    .banner-slider ul li {
+        width: 30px;
+        height: 5px;
+    }
+    
+    .banner-slider ul {
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    /*--------------------------
+           BANNER PART END
+    ---------------------------*/
+    
+    
+    /*--------------------------
+         CATEGORY PART START
+    ---------------------------*/
+    .category-part {
+        padding: 40px 0px;
+    }
+    
+    .category-app {
+        text-align: center;
+    }
+    
+    .category-app img {
+        width: 100%;
+    }
+    
+    .category-download a img {
+        width: 100%;
+    }
+    
+    .category-heading {
+        margin-bottom: 15px;
+    }
+    
+    .category-heading h2 {
+        font-size: 26px;
+    }
+    
+    .category-download {
+        margin-bottom: 30px;
+    }
+    
+    .category-child {
+        width: 225px;
+    }
+    /*--------------------------
+         CATEGORY PART END
+    ---------------------------*/
+    
+    
+    /*--------------------------
+         COLLECT PART START
+    ---------------------------*/
+    .collect-part {
+        padding: 40px 0px;
+    }
+    
+    .collect-heading {
+        margin-bottom: 15px;
+    }
+    
+    .collect-heading h2 {
+        font-size: 26px;
+    }
+    
+    .collect-parent {
+        justify-content: center;
+    }
+    
+    .collect-child {
+        width: 200px;
+    }
+    
+    .collect-btn a {
+        margin-top: 30px;
+    }
+    /*--------------------------
+         COLLECT PART END
+    ---------------------------*/
+    
+    
+    /*--------------------------
+           BLOG PART START
+    ---------------------------*/
+    .blog-part {
+        padding: 60px 0px;
+    }
+    
+    .blog-heading {
+        margin-bottom: 30px;
+    }
+    
+    .blog-div {
+        width: 100%;
+        margin-bottom: 30px !important;
+    }
+    /*--------------------------
+            BLOG PART END
+    ---------------------------*/
+    
+    
+    /*--------------------------
+          FOOTER PART START
+    ---------------------------*/
+    
+    .footer-link {
+        text-align: center;
+    }
+    
+    .footer-icon ul li {
+        margin-left: 15px;
+    }
+    /*--------------------------
+           FOOTERE PART END
+    ---------------------------*/
+    
+    
+    /*===========================
+        PRODUCT PAGE PART START
+    ============================*/
+    .cart-part {
+        padding: 60px 0px;
+        text-align: center;
+    }
+    
+    .cart-heading {
+        margin-top: 30px;
+    }
+    
+    .cart-banner {
+        margin-top: 30px;
+    }
+    
+    .similar-slider a img {
+        width: 80px;
+    }
+    
+    .similar-slider .bamdik {
+        display: none !important;
+    }
+    
+    .similar-slider .dandik {
+        display: none !important;
+    }
+    /*===========================
+        PRODUCT PAGE PART END
+    ============================*/
+    
+    
+    /*===========================
+     BLOG-DETAILS PAGE PART START
+    ============================*/
+    .blog-detail-part {
+        padding: 50px 0px;
+        text-align: center;
+    }
+    
+    .blog-detail-head h3 {
+        font-size: 22px;
+        line-height: inherit;
+    }
+    
+    .blog-date-text p a {
+        padding-right: 0px;
+        margin-bottom: 30px;
+    }
+    
+    .tag-btn a {
+        margin: 60px 0px 0px 0px;
+        line-height: 50px;
+    }
+    
+    .share-icon span {
+        padding-right: 5px;
+    }
+    /*===========================
+     BLOG-DETAILS PAGE PART END
+    ============================*/
+    
+}
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    .nav-heading ul li {
+        margin: 0px 3px;
+    }
+    
+    .blog-div {
+        width: 100%;
+    }
+    
+    .category-child {
+        width: 200px;
+    }
+    
+    .collect-child {
+        width: 200px;
+    }
+    
+}
+
+
+
+
+
